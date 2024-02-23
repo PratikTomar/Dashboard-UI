@@ -16,8 +16,9 @@ const RightContainer = () => {
   return (
     <div className="right-container">
       <div className="network-graph">
-        <h1 className="section-title">Network</h1>
+       
         <div className="chart-container">
+        <h1 className="section-title">Network</h1>
           <ResponsiveContainer width="100%" height={400}>
             <AreaChart
               data={data}
